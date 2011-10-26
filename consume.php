@@ -24,5 +24,3 @@
   catch (Exception $e) {
     echo "Invalid SAML response: " . $e->getMessage();
   }
-
-?>

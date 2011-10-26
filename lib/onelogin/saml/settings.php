@@ -31,5 +31,3 @@
      */
     var $name_identifier_format         = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress";
   }
-
-?>

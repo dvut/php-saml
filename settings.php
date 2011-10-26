@@ -52,5 +52,3 @@ ENDCERTIFICATE;
 
     return $settings;
   }
-
-?>

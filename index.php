@@ -18,4 +18,3 @@
   $url = $authrequest->create();
 
   header("Location: $url");
-?>
