@@ -79,7 +79,7 @@
         $attributeName = $attributeNode->getAttribute("Name");
 
         $attributeValues = array();
-        $attributeValueNodes = $attributeNode->childNodes;
+        $attributeValueNodes = $attributeNode->getElementsByTagNameNS('urn:oasis:names:tc:SAML:2.0:assertion', 'AttributeValue');
         foreach($attributeValueNodes as $attributeValueNode) {
           $attributeValues[] = $attributeValueNode->nodeValue;
         }
